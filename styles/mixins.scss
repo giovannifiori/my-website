@@ -4,3 +4,14 @@
         @content;
     }
 }
+
+@mixin flexCenteredRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexCenteredColumn {
+    @include flexCenteredRow;
+    flex-direction: column;
+}

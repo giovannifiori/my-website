@@ -1,0 +1,39 @@
+@import '../../styles/mixins.scss';
+
+.container {
+    height: 100vh;
+    @include flexCenteredColumn;
+}
+
+.imageContainer {
+    width: 360px;
+    height: 360px;
+    min-width: 360px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.contentBlock {
+    @include flexCenteredRow;
+    column-gap: 2rem;
+}
+
+.contentInfo {
+   p {
+       margin: 0.5rem 0;
+   }
+}
+
+.name {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .contentBlock {
+        flex-direction: column;
+        margin: 0 1rem;
+    }
+}
