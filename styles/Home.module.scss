@@ -1,0 +1,41 @@
+.main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer {
+    width: 360px;
+    height: 360px;
+    min-width: 360px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.contentBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.contentInfo {
+   p {
+       margin: 0.5rem 0;
+   }
+}
+
+.name {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .contentBlock {
+        flex-direction: column;
+        margin: 0 1rem;
+    }
+}
