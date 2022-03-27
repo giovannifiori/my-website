@@ -13,10 +13,10 @@ html, body, [data-reactroot] {
 }
 
 body {
-  font-size: $base-font-size;
+  font-size: $baseFontSize;
   font-family: 'Montserrat', sans-serif;
-  background: $background-color;
-  color: $on-background-color;
+  background: $backgroundColor;
+  color: $onBackgroundColor;
   -webkit-font-smoothing: antialiased !important;
 }
 
