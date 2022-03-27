@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+
+.container {
+  width: 100%;
+  max-width: $sectionMaxWidth;
+  padding: 2rem 1rem;
+}
+
+.title, .ending {
+  font-size: 3rem;
+  &:before, &:after {
+    content: "<";
+    color: $primaryColor;
+  }
+
+  &:after {
+    content: ">";
+  }
+}
+
+.ending {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 700;
+  &:before {
+    content: "</";
+  }
+}
+
+.main {
+  margin: 2rem 0;
+}
