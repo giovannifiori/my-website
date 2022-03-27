@@ -1,0 +1,13 @@
+@import "../../styles/mixins";
+
+.container {
+  @include flexCenteredRow;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+}

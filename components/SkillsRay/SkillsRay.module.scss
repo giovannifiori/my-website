@@ -1,0 +1,23 @@
+@import '../../styles/mixins.scss';
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.itemsContainer {
+  @include flexCenteredColumn;
+}
+
+.groupTitle {
+  margin: 1rem 0;
+}
+
+.item {
+  text-align: center;
+  &:before {
+    content: "-";
+    margin-right: 0.25rem;
+  }
+}
