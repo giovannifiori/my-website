@@ -1,4 +1,5 @@
 @import '../../styles/mixins.scss';
+@import '../../styles/colors.scss';
 
 .container {
     height: 100vh;
@@ -6,34 +7,40 @@
 }
 
 .imageContainer {
-    width: 360px;
-    height: 360px;
-    min-width: 360px;
-    border-radius: 50%;
+    width: 480px;
+    height: 480px;
     overflow: hidden;
     position: relative;
 }
 
 .contentBlock {
-    @include flexCenteredRow;
+    @include flexCenteredColumn;
     column-gap: 2rem;
 }
 
-.contentInfo {
-   p {
-       margin: 0.5rem 0;
-   }
+.title {
+    font-size: 1.5rem;
+
+    &:after {
+        content: "_";
+        color: $primaryColor;
+        animation: blink 1s infinite;
+        margin-left: 0.25rem;
+    }
 }
 
-.name {
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 700;
-    font-size: 5rem;
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
-@media screen and (max-width: 768px) {
-    .contentBlock {
-        flex-direction: column;
-        margin: 0 1rem;
+@media screen and (max-width: 40em){
+    .imageContainer {
+        width: 360px;
+        height: 360px;
     }
 }
