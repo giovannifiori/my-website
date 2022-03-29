@@ -8,6 +8,7 @@ const Skills = () => (
     <Section title="skills">
       <div className={styles.container}>
         <SkillsRay
+            open
             title="Software Engineering"
             items={[
               {

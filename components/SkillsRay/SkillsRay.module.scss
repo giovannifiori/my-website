@@ -1,23 +1,35 @@
 @import '../../styles/mixins.scss';
+@import '../../styles/colors.scss';
+
+.container {
+  width: 100%;
+
+  & summary {
+    &::marker, &::-webkit-details-marker {
+      color: $primaryColor;
+    }
+  }
+}
 
 .title {
   font-size: 2rem;
-  text-align: center;
-  margin-bottom: 2rem;
+  font-weight: 700;
+  cursor: pointer;
 }
 
-.itemsContainer {
-  @include flexCenteredColumn;
+.content {
+  margin-top: 1rem;
+  background-color: $surface;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
 }
 
 .groupTitle {
   margin: 1rem 0;
 }
 
-.item {
-  text-align: center;
-  &:before {
+.item:before {
     content: "-";
     margin-right: 0.25rem;
-  }
 }
