@@ -24,6 +24,10 @@ ul {
   list-style: none;
 }
 
+p {
+  line-height: 1.5rem;
+}
+
 @include headings {
   font-family: 'Source Code Pro', monospace;
 }
