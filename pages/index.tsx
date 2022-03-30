@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Skills from '../components/Skills'
+import Experience from '../components/Experience'
 import Footer from '../components/Footer'
 
 import styles from '../styles/Home.module.scss'
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <Hero />
         <About />
         <Skills />
+        <Experience />
       </main>
       <Footer />
     </>
