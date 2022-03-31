@@ -7,7 +7,7 @@ const Hero = () => (
     <section className={styles.container}>
         <div className={styles.contentBlock}>
             <div className={styles.imageContainer}>
-                <Image src={signaturePic} alt="Author's signature" layout="fill" objectFit="cover" />
+                <Image src={signaturePic} alt="Author's signature" layout="fill" objectFit="cover" priority />
             </div>
             <div className={styles.contentInfo}>
                 <span className={styles.title}>Software Engineer</span>
