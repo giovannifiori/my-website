@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Lawsuit Motions",
+    "description": "Find and access Motions validated in lawsuits from different courts in Brazil through a simplified search. Reference for the elaboration of legal arguments.",
+    "isClassified": false,
+    "link": "https://www.jusbrasil.com.br/pecas"
+  },
+  {
+    "name": "Web ERP app for Samsung",
+    "description": "A multi-module Web ERP application for the HR department of a Samsung's local factory in Manaus/AM, Brazil.",
+    "isClassified": true,
+    "link": null
+  },
+  {
+    "name": "AR/VR SDK",
+    "description": "Kotlin SDK for Android for building AR and VR apps. Ported from existing Javascript SDK from Microsoft.",
+    "isClassified": true,
+    "link": null
+  },
+  {
+    "name": "Web Dashboard",
+    "description": "An internal Web dashboard application for Samsung that displays information of its HQs all around the world.",
+    "isClassified": true,
+    "link": null
+  },
+  {
+    "name": "Samsung XR Service",
+    "description": "Android embedded service for building Mixed Reality applications for next gen. AR Glasses.",
+    "isClassified": true,
+    "link": null
+  },
+  {
+    "name": "\"Self-service\" kiosk",
+    "description": "Android application to the biggest retail market store of the region.",
+    "isClassified": false,
+    "link": null
+  },
+  {
+    "name": "EDK",
+    "description": "Educational software for the Android and Web platforms whose main focus is to create and apply digital tests for students in places with no or little internet connection.",
+    "isClassified": false,
+    "link": "https://edk.sidialab.com"
+  },
+  {
+    "name": "SFAP",
+    "description": "Internal web application that helps the managers to trace every production line of the factory.",
+    "isClassified": false,
+    "link": null
+  }
+]

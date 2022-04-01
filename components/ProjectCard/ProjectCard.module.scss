@@ -1,0 +1,27 @@
+@import '../../styles/colors.scss';
+
+.container {
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  background-color: $surface;
+
+  & h2 {
+    margin-bottom: 0.5rem;
+
+    & sup {
+      color: indianred;
+      font-size: 0.75rem;
+      margin-left: 0.25rem;
+    }
+  }
+
+  & p {
+    margin: 0.5rem 0;
+  }
+
+  & a {
+    text-decoration: none;
+    color: $primaryColor;
+  }
+}
