@@ -6,6 +6,7 @@ import Experience from '../components/Experience'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
 import Project from '../types/Project'
+import Contact from '../components/Contact'
 
 import styles from '../styles/Home.module.scss'
 
@@ -28,6 +29,7 @@ const Home = ({projects}: Props) => {
         <Skills />
         <Projects projects={projects} />
         <Experience />
+        <Contact />
       </main>
       <Footer />
     </>

@@ -1,0 +1,10 @@
+@import '../../../styles/colors.scss';
+
+.icon {
+  transition: ease-in 150ms;
+  &:hover {
+    cursor: pointer;
+    color: $primaryColor;
+    transform: translateY(-15%);
+  }
+}
