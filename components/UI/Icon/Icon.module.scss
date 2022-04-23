@@ -2,7 +2,8 @@
 
 .icon {
   transition: ease-in 150ms;
-  &:hover {
+  &:hover,
+  &:focus {
     cursor: pointer;
     color: $primaryColor;
     transform: translateY(-15%);
