@@ -7,14 +7,17 @@ type Props = {
     children: ReactNode
 }
 
-const Section = ({title, children}: Props) => (
-    <section className={styles.container}>
-        <h1 className={styles.title}>{title}</h1>
-        <div className={styles.main}>
-            {children}
-        </div>
-        <span className={styles.ending}>{title}</span>
-    </section>
-)
+const Section = ({title, children}: Props) => {
+    const sectionTitleId = `${title}-heading`;
+    return (
+        <section className={styles.container} aria-labelledby={sectionTitleId}>
+            <h2 id={sectionTitleId} className={styles.title}>{title}</h2>
+            <div className={styles.main}>
+                {children}
+            </div>
+            <span className={styles.ending}>{title}</span>
+        </section>
+    )
+}
 
 export default Section
