@@ -5,12 +5,12 @@ import Skills from '../components/Skills'
 import Experience from '../components/Experience'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
-import Project from '../types/Project'
 import Contact from '../components/Contact'
+import type Project from '../types/Project'
 
 import styles from '../styles/Home.module.scss'
 
-type Props = {
+interface Props {
   projects: Project[]
 }
 

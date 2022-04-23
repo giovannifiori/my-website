@@ -1,11 +1,11 @@
 import React from 'react'
 import Section from '../HomeSection'
 import ProjectCard from '../ProjectCard'
-import Project from '../../types/Project'
+import type Project from '../../types/Project'
 
 import styles from './Projects.module.scss'
 
-type Props = {
+interface Props {
   projects: Project[]
 }
 

@@ -2,7 +2,7 @@ import React, {ReactNode} from 'react'
 
 import styles from './Section.module.scss'
 
-type Props = {
+interface Props {
     title: string,
     children: ReactNode
 }

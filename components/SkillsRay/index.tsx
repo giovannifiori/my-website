@@ -2,12 +2,12 @@ import React from 'react'
 
 import styles from './SkillsRay.module.scss'
 
-type SkillItemGroup = {
+interface SkillItemGroup {
   title?: string,
   items: string[]
 }
 
-type Props = {
+interface Props {
   title: string,
   items: SkillItemGroup[],
   open?: boolean,
