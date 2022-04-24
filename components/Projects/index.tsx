@@ -9,17 +9,14 @@ interface Props {
   projects: Project[]
 }
 
-const Projects = ({projects}: Props) => (
-    <Section title="projects">
-      <div className={styles.content}>
-        {projects.map(project => (
-            <ProjectCard
-                key={project.name}
-                project={project}
-            />
-        ))}
-      </div>
-    </Section>
+const Projects = ({ projects }: Props) => (
+  <Section title="projects">
+    <div className={styles.content}>
+      {projects.map((project) => (
+        <ProjectCard key={project.name} project={project} />
+      ))}
+    </div>
+  </Section>
 )
 
 export default Projects

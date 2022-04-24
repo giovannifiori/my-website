@@ -14,7 +14,7 @@ interface Props {
   projects: Project[]
 }
 
-const Home = ({projects}: Props) => {
+const Home = ({ projects }: Props) => {
   return (
     <>
       <Head>
@@ -37,11 +37,12 @@ const Home = ({projects}: Props) => {
 }
 
 export async function getStaticProps() {
-  const projects: Project[] = (await import('../public/data/projects.json')).default
+  const projects: Project[] = (await import('../public/data/projects.json'))
+    .default
   return {
     props: {
-      projects
-    }
+      projects,
+    },
   }
 }
 
