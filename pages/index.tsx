@@ -1,14 +1,14 @@
 import Head from 'next/head'
-import Hero from '../components/Hero'
-import About from '../components/About'
-import Skills from '../components/Skills'
-import Experience from '../components/Experience'
-import Projects from '../components/Projects'
-import Footer from '../components/Footer'
-import Contact from '../components/Contact'
-import type Project from '../types/Project'
+import Hero from '@components/Hero'
+import About from '@components/About'
+import Skills from '@components/Skills'
+import Experience from '@components/Experience'
+import Projects from '@components/Projects'
+import Footer from '@components/Footer'
+import Contact from '@components/Contact'
+import type Project from '@types/Project'
 
-import styles from '../styles/Home.module.scss'
+import styles from '@styles/Home.module.scss'
 
 interface Props {
   projects: Project[]

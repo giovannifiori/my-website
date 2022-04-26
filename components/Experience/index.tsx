@@ -1,8 +1,8 @@
 import React from 'react'
-import Section from '../HomeSection'
+import Section from '@components/HomeSection'
 
 import styles from './Experience.module.scss'
-import WorkInfo from '../WorkInfo'
+import WorkInfo from '@components/WorkInfo'
 
 const Experience = () => (
   <Section title="experience">

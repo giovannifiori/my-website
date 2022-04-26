@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import signaturePic from '../../public/images/signature.png'
+import signaturePic from '@public/images/signature.png'
 import styles from './Hero.module.scss'
 
 const Hero = () => (

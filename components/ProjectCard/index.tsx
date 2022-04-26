@@ -1,5 +1,5 @@
 import React from 'react'
-import type Project from '../../types/Project'
+import type Project from '@types/Project'
 
 import styles from './ProjectCard.module.scss'
 

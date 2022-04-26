@@ -1,7 +1,7 @@
 import React from 'react'
-import Section from '../HomeSection'
-import ProjectCard from '../ProjectCard'
-import type Project from '../../types/Project'
+import Section from '@components/HomeSection'
+import ProjectCard from '@components/ProjectCard'
+import type Project from '@types/Project'
 
 import styles from './Projects.module.scss'
 

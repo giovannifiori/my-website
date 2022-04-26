@@ -1,6 +1,6 @@
 import React from 'react'
-import Section from '../HomeSection'
-import SkillsRay from '../SkillsRay'
+import Section from '@components/HomeSection'
+import SkillsRay from '@components/SkillsRay'
 
 import styles from './Skills.module.scss'
 

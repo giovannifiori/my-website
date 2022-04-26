@@ -1,5 +1,5 @@
 import React from 'react'
-import Section from '../HomeSection'
+import Section from '@components/HomeSection'
 
 import styles from './About.module.scss'
 

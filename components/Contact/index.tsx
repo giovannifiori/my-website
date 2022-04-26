@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
-import Icon from '../UI/Icon'
+import Icon from '@components/UI/Icon'
 
 import styles from './Contact.module.scss'
 
