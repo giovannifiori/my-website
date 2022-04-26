@@ -6,7 +6,7 @@ import Experience from '@components/Experience'
 import Projects from '@components/Projects'
 import Footer from '@components/Footer'
 import Contact from '@components/Contact'
-import type Project from '@types/Project'
+import type Project from '@customTypes/Project'
 
 import styles from '@styles/Home.module.scss'
 
