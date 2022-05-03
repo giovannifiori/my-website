@@ -5,7 +5,7 @@ import SkillsRay from '@components/SkillsRay'
 import styles from './Skills.module.scss'
 
 const Skills = () => (
-  <Section title="skills">
+  <Section title="Skills">
     <div className={styles.container}>
       <SkillsRay
         open

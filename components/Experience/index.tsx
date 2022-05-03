@@ -5,7 +5,7 @@ import styles from './Experience.module.scss'
 import WorkInfo from '@components/WorkInfo'
 
 const Experience = () => (
-  <Section title="experience">
+  <Section title="Experience">
     <div className={styles.container}>
       <WorkInfo
         role="Software Engineer"

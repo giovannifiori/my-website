@@ -10,7 +10,7 @@ interface Props {
 }
 
 const Projects = ({ projects }: Props) => (
-  <Section title="projects">
+  <Section title="Projects">
     <div className={styles.content}>
       {projects.map((project) => (
         <ProjectCard key={project.name} project={project} />

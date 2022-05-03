@@ -4,7 +4,7 @@ import Section from '@components/HomeSection'
 import styles from './About.module.scss'
 
 const About = () => (
-  <Section title="about">
+  <Section title="About Me">
     <div className={styles.textContent}>
       <p>
         My name is Giovanni Fiori. I&apos;m 24 years old and I live in Brazil. I

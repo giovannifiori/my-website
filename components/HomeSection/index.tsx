@@ -15,7 +15,6 @@ const Section = ({ title, children }: Props) => {
         {title}
       </h2>
       <div className={styles.main}>{children}</div>
-      <span className={styles.ending}>{title}</span>
     </section>
   )
 }
