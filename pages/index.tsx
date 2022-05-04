@@ -18,8 +18,8 @@ const Home = ({ projects }: Props) => {
   return (
     <>
       <Head>
-        <title>gfiori.dev</title>
-        <meta name="description" content="Giovanni Fiori | Software Engineer" />
+        <title>Giovanni Fiori - Software Engineer</title>
+        <meta name="description" content="Software Engineer with years of experience building Web and Mobile apps." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
