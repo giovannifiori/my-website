@@ -24,6 +24,7 @@ const Home = ({ projects }: Props) => {
 
       <main className={styles.main}>
         <Hero />
+        <Projects projects={projects} />
         <Contact />
       </main>
       <Footer />
