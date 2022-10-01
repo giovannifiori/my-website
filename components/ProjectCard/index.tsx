@@ -8,17 +8,14 @@ interface Props {
 }
 
 const ProjectCard = ({
-  project: { name, description, isClassified, link },
+  project: { name, description, link },
 }: Props) => (
   <div className={styles.container}>
-    <h3>
-      {name}
-      {isClassified && <sup>[classified]</sup>}
-    </h3>
+    <h3>{name}</h3>
     <p>{description}</p>
     {link && (
       <a href={link} rel="nofollow noreferrer" target="_blank">
-        Live project
+        Live
       </a>
     )}
   </div>
