@@ -1,9 +1,13 @@
 @import '../../styles/mixins.scss';
 @import '../../styles/colors.scss';
+@import '../../styles/variables.scss';
 
 .container {
-    min-height: 100vh;
     @include flexCenteredColumn;
+    min-height: 100vh;
+    width: 100%;
+    max-width: $sectionMaxWidth;
+    padding: 2rem 1rem;
 }
 
 .imageContainer {
@@ -14,10 +18,11 @@
 }
 
 .contentBlock {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 2rem;
+    gap: 2rem;
 
     & > div {
         flex: 1;
@@ -55,6 +60,12 @@
     }
     to {
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .contentBlock {
+        flex-direction: column;
     }
 }
 
